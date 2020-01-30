@@ -10,15 +10,15 @@ Go to the directory containing create_ip.sh, script.py
 
 ### Running the Bash Script
 
-*Do 
+* Do 
 
         bash create_ip.sh "ip" "n/2" "0"
 
-*Two files will be created, on_ip_numeral.txt and off_ip_numeral.txt
+* Two files will be created, `on_ip_numeral.txt` and `off_ip_numeral.txt`
  
 ### Running the Python Script
 
-*Do 
+* Do 
 
         python2 script.py 'on_ip_"ip".txt' ' cmd' 'key'
 
