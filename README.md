@@ -4,7 +4,7 @@ These scripts acquire the working systems and runs some commands on them
 
 ## Moving folders and files
 
-Move `.log` to `~/home/` in host computer
+Move `log` to `~/home/.log` in host computer
 
 ## Running Scripts
 
