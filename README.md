@@ -6,7 +6,7 @@ Move mechanicalsoup and k.py to ~/home/ in host computer
 
 ## Running Scripts
 
-Go to the directory where the folder containing create_ip.sh, script.py
+Go to the directory containing create_ip.sh, script.py
 
 ### Running the Bash Script
 
@@ -14,7 +14,7 @@ Go to the directory where the folder containing create_ip.sh, script.py
 
         bash create_ip.sh "ip" "n/2" "0"
 
-*Two files will be created, on_ip_"ip".txt and off_ip_"ip".txt
+*Two files will be created, on_ip_numeral.txt and off_ip_numeral.txt
  
 ### Running the Python Script
 
