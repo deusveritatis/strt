@@ -4,7 +4,7 @@ import sys,os,shutil,socket
 
 def xyz(ip,my_ip,argv1,argv2):
 	s = pxssh.pxssh()
-        host1 = 'iiserb'
+        host1 = argv2
         s.force_password = True
 	try :
 		s.login(ip,host1,host1,login_timeout=1)
