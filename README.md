@@ -1,6 +1,6 @@
 # Usage Directions
 
-These scripts acquire the working systems and runs some commands on them
+These scripts acquire the working systems and runs some commands on them.
 
 ## Moving folders and files
 
