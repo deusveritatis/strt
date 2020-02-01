@@ -9,10 +9,10 @@ then
 	ip="${x}${s}"
 	if ping -c 1 "$ip" &> /dev/null
 	then
-		echo "$ip" >> "on_ip_${ag1}.txt"
+		echo "$ip" >> "on_ip.txt"
 	else
 
-		echo "$ip" >> "off_ip_${ag1}.txt"
+		echo "$ip" >> "off_ip.txt"
 	fi
   done
 else
@@ -22,10 +22,10 @@ else
 	ip="${x}${s}"
 	if ping -c 1 "$ip" &> /dev/null
 	then
-		echo "$ip" >> "on_ip_${ag1}.txt"
+		echo "$ip" >> "on_ip.txt"
 	else
 
-		echo "$ip" >> "off_ip_${ag1}.txt"
+		echo "$ip" >> "off_ip.txt"
 	fi
   done
 fi
