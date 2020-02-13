@@ -17,7 +17,7 @@ k = sys.argv[1]
 br= mechanicalsoup.StatefulBrowser()
 br.open('http://detectportal.firefox.com/success.txt')
 br.select_form('form[action="/"]')
-br["username"]=ptsd(u,k)
-br["password"]=ptsd(p,k)
+br["username"]=ptsd(k,u)
+br["password"]=ptsd(k,p)
 print(br.submit_selected())
 
